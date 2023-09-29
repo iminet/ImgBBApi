@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
                 <TargetFrameworks>net5.0;net6.0</TargetFrameworks>
                 <Nullable>disable</Nullable>
@@ -7,13 +6,13 @@
     <RootNamespace>ImgBBApi</RootNamespace>
     <AssemblyName>ImgBBApi</AssemblyName>
     <PackageReleaseNotes>Added package icon</PackageReleaseNotes>
-    <Version>1.0.1</Version>
-    <AssemblyVersion>1.0.1</AssemblyVersion>
-    <FileVersion>1.0.1</FileVersion>
+    <Version>1.0.2</Version>
+    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <FileVersion>1.0.2</FileVersion>
     <Authors>iminet</Authors>
     <Product>C# library for ImgBB</Product>
     <PackageId>Iminetsoft.ImgBBApi</PackageId>
-    <PackageIcon>imgbb.png</PackageIcon>
+    <PackageIcon>imgbb-invert.png</PackageIcon>
     <PackageProjectUrl>https://github.com/iminet/ImgBBApi</PackageProjectUrl>
     <RepositoryUrl>https://github.com/iminet/ImgBBApi</RepositoryUrl>
     <PackageTags>dotnet ImgBB, image, imageupload, API</PackageTags>
@@ -27,6 +26,7 @@
         <ItemGroup>
                 <None Include="Readme.md" Pack="true" PackagePath="\"></None>
                 <None Include="Resources\imgbb.png" Pack="true" PackagePath="\"></None>
+                <None Include="Resources\imgbb-invert.png" Pack="true" PackagePath="\"></None>
         </ItemGroup>
 
   <ItemGroup>
