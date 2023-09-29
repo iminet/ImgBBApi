@@ -1,0 +1,3 @@
+C:\Users\kincs\source\repos\ImgBBApi\obj\Debug\net7.0\ImgBBApi.csproj.AssemblyReference.cache
+C:\Users\kincs\source\repos\ImgBBApi\obj\Debug\net7.0\CronNET.Properties.Resources.resources
+C:\Users\kincs\source\repos\ImgBBApi\obj\Debug\net7.0\ImgBBApi.csproj.GenerateResource.cache

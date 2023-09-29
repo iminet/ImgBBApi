@@ -1,0 +1,5 @@
+C:\Users\kincs\source\repos\ImgBBApi\obj\Debug\net45\ImgBBApi.csproj.AssemblyReference.cache
+C:\Users\kincs\source\repos\ImgBBApi\obj\Debug\net45\CronNET.Properties.Resources.resources
+C:\Users\kincs\source\repos\ImgBBApi\obj\Debug\net45\ImgBBApi.csproj.GenerateResource.cache
+C:\Users\kincs\source\repos\ImgBBApi\obj\Debug\net45\ImgBBApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kincs\source\repos\ImgBBApi\obj\Debug\net45\ImgBBApi.csproj.CoreCompileInputs.cache
