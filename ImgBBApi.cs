@@ -29,7 +29,12 @@ namespace Iminetsoft
                                                 /* SORGU GONDERDIK VE JSON RESPONSE-U ELDE ETDIK: */
                                                 string requestUrl = $"https://api.imgbb.com/1/upload?key={ApiKey}";
                                                 MultipartFormDataContent content = new MultipartFormDataContent();
-                                                string base64OfImage = Convert.ToBase64String(File.ReadAllBytes(imagePath));
+
+                                                // Temporary solution
+                                                string base64OfImage = File.Exists(imagePath) ? Convert.ToBase64String(File.ReadAllBytes(imagePath))
+                                                                        : imagePath.Trim();
+                                                
+                                                
                                                 content.Add(new StringContent(base64OfImage), "image");
                                                 content.Add(new StringContent(Path.GetFileNameWithoutExtension(imagePath)), "name");
                                                 HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, requestUrl) { Content = content };

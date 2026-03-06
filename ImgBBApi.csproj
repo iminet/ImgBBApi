@@ -1,14 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-                <TargetFrameworks>net5.0;net6.0</TargetFrameworks>
-                <Nullable>disable</Nullable>
-          <OutputType>Library</OutputType>
+    <TargetFrameworks>net5.0;net6.0;net7.0;net8.0</TargetFrameworks>
+    <Nullable>disable</Nullable>
+    <OutputType>Library</OutputType>
     <RootNamespace>ImgBBApi</RootNamespace>
     <AssemblyName>ImgBBApi</AssemblyName>
     <PackageReleaseNotes>Added package icon</PackageReleaseNotes>
-    <Version>1.0.2</Version>
-    <AssemblyVersion>1.0.2</AssemblyVersion>
-    <FileVersion>1.0.2</FileVersion>
+    <Deterministic>False</Deterministic>
+    <AssemblyVersion>1.0.3</AssemblyVersion>
+    <Version>$(AssemblyVersion)</Version>
+    <FileVersion>$(AssemblyVersion)</FileVersion>
     <Authors>iminet</Authors>
     <Product>C# library for ImgBB</Product>
     <PackageId>Iminetsoft.ImgBBApi</PackageId>
@@ -20,9 +21,8 @@
     <Description>C# library for ImgBB</Description>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-          <CheckEolTargetFramework>false</CheckEolTargetFramework>
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
   </PropertyGroup>
-
         <ItemGroup>
                 <None Include="Readme.md" Pack="true" PackagePath="\"></None>
                 <None Include="Resources\imgbb.png" Pack="true" PackagePath="\"></None>
