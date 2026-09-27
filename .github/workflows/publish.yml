@@ -58,10 +58,11 @@ jobs:
           fi
 
           dotnet pack ImgBBApi.csproj \
-            --configuration Release \
-            --no-restore \
-            --output ./artifacts \
-            "${PACKAGE_VERSION_ARGS[@]}"
+          --configuration Release \
+          --no-restore \
+          --output ./artifacts \
+          -p:GeneratePackageOnBuild=false \
+          "${PACKAGE_VERSION_ARGS[@]}"
 
       - name: Upload package artifact
         uses: actions/upload-artifact@v4
