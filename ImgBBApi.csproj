@@ -7,7 +7,7 @@
     <AssemblyName>ImgBBApi</AssemblyName>
     <PackageReleaseNotes>Added package icon</PackageReleaseNotes>
     <Deterministic>False</Deterministic>
-    <AssemblyVersion>1.0.5</AssemblyVersion>
+    <AssemblyVersion>1.0.6</AssemblyVersion>
     <Version>$(AssemblyVersion)</Version>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <Authors>iminet</Authors>
@@ -25,7 +25,7 @@
   </PropertyGroup>
   
   <ItemGroup>
-          <None Include="Readme.md" Pack="true" PackagePath="\"></None>
+          <None Include="README.md" Pack="true" PackagePath="\"></None>
           <None Include="Resources\imgbb.png" Pack="true" PackagePath="\"></None>
           <None Include="Resources\imgbb-invert.png" Pack="true" PackagePath="\"></None>
   </ItemGroup>
